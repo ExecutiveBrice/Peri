@@ -1,0 +1,27 @@
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+app-search{
+    width: 100%;
+
+  }
+table{
+    width: 100%;
+    text-align: center;
+  }
+  th{
+    cursor: pointer;
+}
+  td{
+    align-content: center;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  .arrow{
+    min-height: 25px;
+  }
+  

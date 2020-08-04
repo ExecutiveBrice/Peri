@@ -1,0 +1,14 @@
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <a routerLink="" ngbNavLink>Vue Globale</a>
+  </li>
+
+  <li [ngbNavItem]="2">
+    <input #searchBox1 id="searchBox1" class="form-control" (keyup.enter)="searchForOlt(searchBox1.value)" placeholder="Olt Id"/>
+  </li>
+    <li [ngbNavItem]="3">
+    <input #searchBox2 id="searchBox2" class="form-control" (keyup.enter)="searchForPm(searchBox2.value)" placeholder="Pm Id"/>
+  </li>
+
+</ul>
+

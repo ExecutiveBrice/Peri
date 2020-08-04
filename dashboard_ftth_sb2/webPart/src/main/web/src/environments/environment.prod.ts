@@ -1,0 +1,27 @@
+export const environment = {
+  url:"",
+  production: true,
+  isResynchInProgress: false,
+  resynchroDate: "",
+  refreshTimer: 300000,
+  resynchTimer: 5000,
+  resynchRefresh: 500,
+  clearMessageTimer: 20000,
+  listNbPages: [10, 25, 50, 100],
+  colorGood: "#A0FE7D",
+  colorWarning: "#FEEE7D",
+  colorAlerte: "#F73229",
+  thresholdWarning: 0,
+  thresholdAlerte: 10,
+  columnDetailHsNameId: [{id:"region", name:"REGION", valeur: "", rule: "", type:"string"},{id:"idPm",name:"ID PM", valeur: "", rule: "", type:"string"},{id:"partenaireAdduction",name:"PARTENAIRE ADDUCTION", valeur: "", rule: "", type:"string"},{id:"creationDate",name:"DATE CREATION", valeur: "", rule: "", type:"string"},{id:"nbClients",name:"NB CLIENTS", valeur: "", rule: "", type:"string"},{id:"nbClientsHs",name:"NB CLIENTS HS", valeur: "", rule: "", type:"string"},{id:"osp",name:"OLT-SLOT-PORT", valeur: "", rule: "", type:"string"},{id:"gcr",name:"GCR", valeur: "", rule: "", type:"string"},{id:"tt",name:"TT", valeur: "", rule: "", type:"string"}],
+  columnDetailOkNameId: [{id:"region", name:"REGION", valeur: "", rule: "", type:"string"},{id:"idPm",name:"ID PM", valeur: "", rule: "", type:"string"},{id:"partenaireAdduction",name:"PARTENAIRE ADDUCTION", valeur: "", rule: "", type:"string"},{id:"creationDate",name:"DATE CREATION", valeur: "", rule: "", type:"string"},{id:"nbClients",name:"NB CLIENTS", valeur: "", rule: "", type:"string"},{id:"nbClientsHs",name:"NB CLIENTS HS", valeur: "", rule: "", type:"string"},{id:"osp",name:"OLT-SLOT-PORT", valeur: "", rule: "", type:"string"},{id:"gcr",name:"GCR", valeur: "", rule: "", type:"string"},{id:"tt",name:"TT", valeur: "", rule: "", type:"string"},{id:"resolutionDate",name:"DATE RESOLUTION", valeur: "", rule: "", type:"string"}],
+  columnGlobalNameId: [{ id: "region", name: "REGION", valeur: "", rule: "", type: "string" }, { id: "siteNro", name: "SITE NRO", valeur: "", rule: "", type: "string" }, { id: "partenaire", name: "PARTENAIRE", valeur: "", rule: "", type: "string" }, { id: "id", name: "OLT", valeur: "", rule: "", type: "string" }, { id: "pmHs", name: "PM HS", valeur: "", rule: "", type: "number" }, { id: "pmOk", name: "PM OK", valeur: "", rule: "", type: "number" }],
+
+  orderDetailHs: [{column:"region", direction:"asc", type: "string"},{column:"idPm", direction:"asc", type: "string"},{column:"osp", direction:"asc", type: "string"}],
+  orderDetailOk: [{column:"region", direction:"asc", type: "string"},{column:"idPm", direction:"asc", type: "string"},{column:"osp", direction:"asc", type: "string"}],
+  orderGlobal: [{column:"region", direction:"asc", type: "string"},{column:"id", direction:"asc", type: "string"}],
+  selectionText: ["Contient", "Egal", "Different", "Retirer le filtre"],
+  selectionNumber: ["<", "=", ">", "Retirer le filtre"],
+  globalData: [],
+  dataDetail: {}
+};

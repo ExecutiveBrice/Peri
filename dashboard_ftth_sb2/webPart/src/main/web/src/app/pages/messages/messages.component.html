@@ -1,0 +1,12 @@
+<div class="alert alert-danger" *ngIf="messageService.redMessages.length">
+  <div *ngFor='let message of messageService.redMessages'> {{message}} </div>
+</div>
+<div class="alert alert-warning" *ngIf="messageService.orangeMessages.length">
+  <div *ngFor='let message of messageService.orangeMessages'> {{message}} </div>
+</div>
+<div class="alert alert-info" *ngIf="messageService.blueMessages.length">
+  <div *ngFor='let message of messageService.blueMessages'> {{message}} </div>
+</div>
+<div class="alert alert-success" *ngIf="messageService.greenMessages.length">
+  <div *ngFor='let message of messageService.greenMessages'> {{message}} </div>
+</div>

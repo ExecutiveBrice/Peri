@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col search_panel">
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-xs btn-outline-secondary btn-block" id="dropdownBasic1" ngbDropdownToggle>{{!filterArg.valeur || filterArg.valeur.length == 0?"aucun filtre":filterArg.rule+" "+filterArg.valeur}}</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem  *ngFor="let item of selection" (click)="ChangeSelected(item)">{{item}}</button>
+        <input #searchBox class="form-control" (keyup.enter)="search(searchBox.value)" (blur)="search(searchBox.value)" placeholder=""/>
+      </div>
+    </div>
+  </div>
+</div>

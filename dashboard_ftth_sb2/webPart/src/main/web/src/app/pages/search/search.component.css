@@ -1,0 +1,20 @@
+
+.d-inline-block{
+  width: 100%;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+.btn-group-xs > .btn, .btn-xs {
+
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .75;
+  border-radius: .2rem;
+}
+.search_panel{
+  padding-left: 0px;
+  padding-right: 0px;
+}

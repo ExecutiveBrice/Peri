@@ -1,0 +1,10 @@
+
+# Java App
+*target/
+*.class
+
+
+# angular app
+*dist/
+*node/
+*node_modules/

@@ -1,0 +1,62 @@
+<table>
+  <thead>
+    <tr>
+      <th *ngFor="let filterArg of columnArgs">
+        <div style="display: table; overflow: hidden;" class="row" (click)="order(filterArg.id, filterArg.type)">
+          <div class="col-2">
+          </div>
+          <div style="display: table-cell; vertical-align: middle;" class="col-8 title">
+            <span>{{filterArg.name}}</span>
+          </div>
+          <div class="col-2">
+            <div class="arrow">
+              <fa-icon *ngIf="orderList.indexOf(filterArg.id+'_desc')  < 0" [icon]="faAngleUp"></fa-icon>
+
+            </div>
+            <div class="arrow">
+              <fa-icon *ngIf="orderList.indexOf(filterArg.id+'_asc')  < 0" [icon]="faAngleDown"></fa-icon>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <app-search [filterArg]="filterArg" (selectedFilterArg)="updateFilter($event)"></app-search>
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of tmpData | slice: (page-1) * selectedNb : (page-1) * selectedNb + selectedNb"
+      (click)="selectItem(item)">
+      <td *ngFor="let filterArg of columnArgs" [style.background-color]="getColor(filterArg, item)">
+        <div *ngIf="(filterArg.id == 'pmHs' || filterArg.id == 'pmOk' )&& item[filterArg.id] == -1" class="loader">
+        </div>
+        <div *ngIf="!((filterArg.id == 'pmHs' || filterArg.id == 'pmOk' )&& item[filterArg.id] == -1)">
+          {{ item[filterArg.id] }}</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+<div class="row">
+  <div class="col-2">
+  </div>
+  <div class="col-8">
+    <ngb-pagination class="d-flex justify-content-center" size="sm" [(page)]="page" [pageSize]="selectedNb"
+      [maxSize]="5" [rotate]="true" [ellipses]="false" [boundaryLinks]="true" [collectionSize]="tmpData.length">
+    </ngb-pagination>
+  </div>
+  <div class="col-2">
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn btn-sm btn-outline-secondary btn-block" id="dropdownBasic1" ngbDropdownToggle>{{selectedNb}}
+        lignes par page</button>
+      <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+        <button ngbDropdownItem *ngFor="let item of listNbPages" (click)="selectedNb = item">{{item}}</button>
+      </div>
+    </div>
+  </div>
+</div>

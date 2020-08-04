@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2020.07.28 à 02:18:27 PM CEST 
+
+  -->
+  <bindings xmlns:tns="http://networktrans-olt.types.ws.temip.ov.hp.com" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.bouyguestelecom.oss.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:Show_Request">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Set_Request">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetEvent_Request">
+      <class ref="com.bouyguestelecom.oss.wsdl.GetEventRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Attrib_List">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttribList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CommonException">
+      <class ref="com.bouyguestelecom.oss.wsdl.CommonException"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:InCallParams">
+      <class ref="com.bouyguestelecom.oss.wsdl.InCallParams"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:OutCallParams">
+      <class ref="com.bouyguestelecom.oss.wsdl.OutCallParams"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Create_Request">
+      <class ref="com.bouyguestelecom.oss.wsdl.CreateRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EntitySpec">
+      <class ref="com.bouyguestelecom.oss.wsdl.EntitySpec"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:Delete_Request">
+      <class ref="com.bouyguestelecom.oss.wsdl.DeleteRequest"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CreateResponse">
+      <class ref="com.bouyguestelecom.oss.wsdl.CreateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Create_Reply">
+      <class ref="com.bouyguestelecom.oss.wsdl.CreateReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:DeleteResponse">
+      <class ref="com.bouyguestelecom.oss.wsdl.DeleteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Delete_Reply">
+      <class ref="com.bouyguestelecom.oss.wsdl.DeleteReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ShowResponse">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Reply">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:SetResponse">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Set_Reply">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GetEventResponse">
+      <class ref="com.bouyguestelecom.oss.wsdl.GetEventResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetEvent_Reply">
+      <class ref="com.bouyguestelecom.oss.wsdl.GetEventReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BinAbsTime">
+      <class ref="com.bouyguestelecom.oss.wsdl.BinAbsTime"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EntityClass">
+      <class ref="com.bouyguestelecom.oss.wsdl.EntityClass"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttribIdList">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttribIdList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Attrib_Id">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttribId"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttribValue">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttribValue"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Attrib">
+      <class ref="com.bouyguestelecom.oss.wsdl.Attrib"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UserDefinedArgumentValue">
+      <class ref="com.bouyguestelecom.oss.wsdl.UserDefinedArgumentValue"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:UserDefined">
+      <class ref="com.bouyguestelecom.oss.wsdl.UserDefined"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:InstType">
+      <class ref="com.bouyguestelecom.oss.wsdl.InstType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ClassInst">
+      <class ref="com.bouyguestelecom.oss.wsdl.ClassInst"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StructuredEntitySpec">
+      <class ref="com.bouyguestelecom.oss.wsdl.StructuredEntitySpec"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MccMessageReply">
+      <class ref="com.bouyguestelecom.oss.wsdl.MccMessageReply"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MccMessage">
+      <class ref="com.bouyguestelecom.oss.wsdl.MccMessage"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttributeIDList">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttributeIDList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EventIDList">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventIDList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ManagedObject">
+      <class ref="com.bouyguestelecom.oss.wsdl.ManagedObject"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EventTime">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventTime"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SpecificProblems">
+      <class ref="com.bouyguestelecom.oss.wsdl.SpecificProblems"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BackUpObject">
+      <class ref="com.bouyguestelecom.oss.wsdl.BackUpObject"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ThresholdLevel_HiLow">
+      <class ref="com.bouyguestelecom.oss.wsdl.ThresholdLevelHiLow"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ThresholdLevelInd_Rec">
+      <class ref="com.bouyguestelecom.oss.wsdl.ThresholdLevelIndRec"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ThresholdInfo">
+      <class ref="com.bouyguestelecom.oss.wsdl.ThresholdInfo"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Notif_Id_Set">
+      <class ref="com.bouyguestelecom.oss.wsdl.NotifIdSet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CorrelatedNotifOne">
+      <class ref="com.bouyguestelecom.oss.wsdl.CorrelatedNotifOne"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CorrelatedNotifications">
+      <class ref="com.bouyguestelecom.oss.wsdl.CorrelatedNotifications"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttributeValueChangeDefn_Rec">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttributeValueChangeDefnRec"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttributeValueChangeDefinition">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttributeValueChangeDefinition"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MonitoredAttributes">
+      <class ref="com.bouyguestelecom.oss.wsdl.MonitoredAttributes"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProposedRepairActions">
+      <class ref="com.bouyguestelecom.oss.wsdl.ProposedRepairActions"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:MngmntExtension">
+      <class ref="com.bouyguestelecom.oss.wsdl.MngmntExtension"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AdditionalInformation">
+      <class ref="com.bouyguestelecom.oss.wsdl.AdditionalInformation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SecurityAlarmDetector">
+      <class ref="com.bouyguestelecom.oss.wsdl.SecurityAlarmDetector"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Attribute_Set">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttributeSet"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AttributeIdentifierList">
+      <class ref="com.bouyguestelecom.oss.wsdl.AttributeIdentifierList"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Communications_Alarm">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventCommunicationsAlarm"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Environmental_Alarm">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventEnvironmentalAlarm"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Equipment_Alarm">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventEquipmentAlarm"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Processing_Error_Alarm">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventProcessingErrorAlarm"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Quality_Of_Service_Alarm">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventQualityOfServiceAlarm"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Integrity_Violation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventIntegrityViolation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Operational_Violation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventOperationalViolation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Physical_Violation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventPhysicalViolation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Security_Service_Or_Mechanism_Violation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventSecurityServiceOrMechanismViolation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Time_Domain_Violation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventTimeDomainViolation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Object_Creation">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventObjectCreation"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Object_Deletion">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventObjectDeletion"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_State_Change">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventStateChange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Relationship_Change">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventRelationshipChange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_Attribute_Value_Change">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventAttributeValueChange"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Event_report">
+      <class ref="com.bouyguestelecom.oss.wsdl.EventReport"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Show_Success">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowShowSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Show_Some">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowShowSome"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Show_Short_Success">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowShowShortSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Show_Inaccurate_Success">
+      <class ref="com.bouyguestelecom.oss.wsdl.ShowShowInaccurateSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Set_Set_Success">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetSetSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Set_Set_Incomplete">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetSetIncomplete"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Set_Set_Atomic">
+      <class ref="com.bouyguestelecom.oss.wsdl.SetSetAtomic"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetEvent_GetEvent_Success">
+      <class ref="com.bouyguestelecom.oss.wsdl.GetEventGetEventSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetEvent_GetEvent_Lost">
+      <class ref="com.bouyguestelecom.oss.wsdl.GetEventGetEventLost"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Partitions">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.Partitions"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ReplyType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.ReplyType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EntityScope">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.EntityScope"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Reasoncode">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.Reasoncode"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:WildType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.WildType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Persistence">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.Persistence"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EntityExistence">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.EntityExistence"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:QualifierType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.QualifierType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:RetryReason">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.RetryReason"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:AlarmEventType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.AlarmEventType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:PerceivedSeverity">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.PerceivedSeverity"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TrendIndication">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.TrendIndication"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SecurityEventType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.SecurityEventType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SecurityAlarmCause">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.SecurityAlarmCause"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SecurityAlarmSeverity">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.SecurityAlarmSeverity"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:EventType">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.EventType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:SourceIndicator">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.SourceIndicator"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Osi_Mode">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.OsiMode"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Osi_Severity">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.OsiSeverity"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Create_Create_Success">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.CreateCreateSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Create_Create_Already_Exists">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.CreateCreateAlreadyExists"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Delete_Delete_Success">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.DeleteDeleteSuccess"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Delete_Delete_Nothing">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.DeleteDeleteNothing"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Delete_Delete_Has_Child">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.DeleteDeleteHasChild"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:Show_Show_Unsupported_Group">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.ShowShowUnsupportedGroup"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GetEvent_GetEvent_NoMore">
+      <typesafeEnumClass ref="com.bouyguestelecom.oss.wsdl.GetEventGetEventNoMore"/>
+    </bindings>
+  </bindings>
+</bindings>
