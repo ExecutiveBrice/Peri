@@ -1,0 +1,30 @@
+---
+server:
+  port: 8090
+  servlet:
+    contextPath: /InscriptionPerisco
+---
+spring:
+  profiles: dev
+  swagger:
+    enable: true
+logging:
+  file: ${OSS_LOGDIR}/java_dashboard_ftth.log
+  level:
+    root: WARN
+    org.springframework.web: DEBUG
+    org.hibernate: ERROR
+datasource:
+  dashboardapp:
+    url: jdbc:postgresql://localhost:5432/hibernatedb
+    username: admoss
+    password: admoss
+    driverClassName: org.postgresql.Driver
+    defaultSchema:
+    maxPoolSize: 20
+    hibernate:
+      hbm2ddl.method: update
+      hbm2ddl.auto: update
+      show_sql: true
+      format_sql: true
+      dialect: org.hibernate.dialect.PostgreSQLDialect
