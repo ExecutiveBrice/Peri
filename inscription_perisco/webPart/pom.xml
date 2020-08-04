@@ -33,7 +33,15 @@
 							<goal>install-node-and-npm</goal>
 						</goals>
 					</execution>
-
+					<execution>
+						<id>npm registry</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+						<configuration>
+							<arguments>config set registry https://registry.npmjs.org/</arguments>
+						</configuration>
+					</execution>
 					<execution>
 						<id>npm install</id>
 						<goals>

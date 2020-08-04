@@ -2,99 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd6b801-fa27-43c9-901f-f28d624efdd7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/META-INF/sun-jaxb.episode" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/RunWebApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/configuration/JpaConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/configuration/SpringFoxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/controller/OltController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/controller/PmController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/controller/ResynchronisationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/model/DashboardOlt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/model/DashboardPm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/model/TRANS_ATTRIBUTE.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/model/TRANS_ENTITY.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/repositories/IGRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/repositories/OltSlotPortPonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/repositories/PMRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/repositories/TransEntitiesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/IGService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/IGServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/OltSlotPortPonService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/OltSlotPortPonServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/PMService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/service/PMServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/util/Common.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/java/com/bouyguestelecom/oss/util/Resynchronisation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/RunDashboardTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/controller/DetailViewApiControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/controller/GlobalViewApiControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/repositories/IGRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/repositories/OltSlotPortPonRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/java/com/bouyguestelecom/oss/repositories/PMRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/serverPart/src/test/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/managehttp.interceptor.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/models/filterParam.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/models/olt.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/models/orderParam.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/models/pm.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/models/resynchro.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/detail/detail.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/detail/detail.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/detail/detail.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/global/global.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/global/global.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/global/global.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/messages/messages.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/messages/messages.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/messages/messages.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/navbar/navbar.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/navbar/navbar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/navbar/navbar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/search/search.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/search/search.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/search/search.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/table/table.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/table/table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/pages/table/table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/filter.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/httpcancel.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/message.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/olt.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/order.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/pm.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/refresh.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/app/services/resynch.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dashboard_ftth_sb2/webPart/src/main/web/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webPart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webPart/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/webPart/target/" />
@@ -106,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverPart/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webPart/src/main/web/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
-              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+            <state relative-caret-position="139">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -133,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serverPart/src/main/java/com/brice/corp/configuration/JpaConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="1309">
               <caret line="101" column="41" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="41" />
             </state>
           </provider>
@@ -142,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webPart/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+            <state relative-caret-position="452">
+              <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -153,6 +62,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>bouy</find>
+      <find>fontawesome</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Ionic\Peri\inscription_perisco\webPart</dir>
@@ -207,7 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,11 +208,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596572741734" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596573101177" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -332,38 +242,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.09968017" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.09968017" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webPart/src/main/web/angular.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -385,24 +293,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/src/main/web/angular.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/serverPart/src/main/java/com/brice/corp/configuration/JpaConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="1309">
           <caret line="101" column="41" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webPart/src/main/web/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        <state relative-caret-position="139">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webPart/webPart.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/webPart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        <state relative-caret-position="452">
+          <caret line="41" column="86" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="86" />
         </state>
       </provider>
     </entry>
